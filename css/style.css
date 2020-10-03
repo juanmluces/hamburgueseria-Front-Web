@@ -108,7 +108,7 @@ header nav ul li .activo{
   color: var(--color-principal);
 }
 
-@media(min-width: 48em){
+@media(min-width: 37em){
   header .nav_top a span{
     display: inline;
   }
@@ -164,7 +164,7 @@ footer a:hover{
   text-decoration: none;
 }
 
-@media(min-width: 48em){
+@media(min-width:37em){
   footer {
     text-align: left;
   }
@@ -320,7 +320,7 @@ footer a:hover{
   transform: translateX(5px);
 }
 
-@media(min-width:48em){
+@media(min-width:37em){
   main #ourservices article{
     width: 50%;
     border-bottom: 0;
@@ -382,7 +382,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img{
 }
 
 
-  @media(min-width: 48em){
+  @media(min-width:37em){
     
     main #aboutus .marco {
       margin: 0 15px;
