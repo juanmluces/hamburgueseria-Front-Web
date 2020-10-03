@@ -1,0 +1,60 @@
+:root{
+  --color-principal: #fa573a;
+  --color-secundario: #21242e;
+  --fuentePrincipal: 'Montserrat', sans-serif;
+  --fuenteSecundaria: 'Handlee', cursive;
+  --anchoMaximo: 1100px;
+  --gris: #aaa;
+}
+
+.blog .row {
+  flex-wrap: wrap;
+}
+
+.blog article{
+  width: 70%;
+  margin: 0 auto 3em;
+}
+
+.blog article:last-child{
+  margin-bottom: 0;
+}
+
+.blog .imageContainer{
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.blog .fechaArt p{
+  background-color: #fa573ad5;
+  width: 3em;
+  height: 3.2em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.blog article h3{
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.blog article h4 {
+  color: var(--color-principal);
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.blog article p{
+  font-size: 0.8em;
+  color: rgb(99, 99, 99);
+  line-height: 1.4;
+}

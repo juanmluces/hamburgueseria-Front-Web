@@ -307,7 +307,18 @@ footer a:hover{
    color: var(--color-principal);
    margin: 1em 0 0 0;
    display: block;
+  
  }
+
+ .enlace i{
+  transition: ease-in-out 300ms;
+ }
+
+
+
+.enlace:hover i{
+  transform: translateX(5px);
+}
 
 @media(min-width:48em){
   main #ourservices article{
