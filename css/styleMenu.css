@@ -1,0 +1,106 @@
+:root{
+  --color-principal: #fa573a;
+  --color-secundario: #21242e;
+  --fuentePrincipal: 'Montserrat', sans-serif;
+  --fuenteSecundaria: 'Handlee', cursive;
+  --anchoMaximo: 1100px;
+  --gris: #aaa;
+}
+
+.menu {
+  background-color: #1c1c1c;
+  color: white;
+  position: relative;
+ 
+}
+
+.menu h2{
+  color: white;
+}
+
+.menu section{
+  width: 80%;
+  margin: auto;
+  
+}
+
+.menu section aside{
+  margin-bottom: 2em;
+}
+
+.menu section aside nav{
+  margin-bottom: 2em;
+}
+
+.menu section nav ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.menu section nav ul li a.selected{
+  background-color: var(--color-principal);
+
+}
+
+
+
+.menu section nav ul li a:hover{
+  background-color: var(--color-principal);
+}
+
+.menu aside h3{
+  font-weight: 700;
+}
+
+.menu aside hr{
+  border-color: var(--color-principal);
+  width: 3em;
+  margin: 1em 0;
+}
+
+.menu section article{
+  margin: 3em 0;
+  
+}
+
+.menu article .imageContainer{
+  margin-bottom: 2em;
+  overflow: hidden;
+
+}
+
+.menu article .imageContainer img{
+  transition: transform ease-in-out 3s;
+}
+
+.menu article .imageContainer:hover img{
+  transform: scale(1.2);
+}
+
+.menu article div h3{
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.menu article div h3 span{
+  color: var(--color-principal);
+}
+
+.menu article div a{
+  font-weight: 700;
+}
+
+.menu section .topButton a{
+  position: absolute;
+  bottom:4em;
+  right: 0.5em;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 0.5em;
+ 
+  text-align: center;
+
+}
