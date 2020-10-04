@@ -24,6 +24,10 @@
   
 }
 
+.menu section .row{
+  flex-direction: column;
+}
+
 .menu section aside{
   margin-bottom: 2em;
 }
@@ -102,5 +106,39 @@
   padding: 0.5em;
  
   text-align: center;
+
+}
+
+
+
+@media(min-width: 37em){
+  .menu section div.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2em;
+  }
+
+  .menu section aside{
+    width: 30%;
+  }
+
+  .menu section .productosMenu{
+    width: 70%;
+  }
+
+  .menu section .imageContainer{
+    max-width: 200px;
+    margin: 0 2em;
+  }
+  .menu section article.row{
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .topButton{
+    display: none;
+  }
+
 
 }
