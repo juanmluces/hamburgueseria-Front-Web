@@ -401,6 +401,229 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img{
 /*---------------------------- Fin Main section aboutus
  ---------------------------------*/
 
+/* ----------------------------------- Estilos Blog.html --------------------------------- */
+
+
+ .blog .row {
+  flex-wrap: wrap;
+}
+
+.blog article{
+  width: 70%;
+  margin: 3em auto;
+}
+
+.blog article:last-child{
+  margin-bottom: 0;
+}
+
+.blog .imageContainer{
+  position: relative;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.blog .imageContainer img{
+  transition: transform ease-in-out 3s;
+}
+
+.blog .imageContainer:hover img{
+  transform: scale(1.2);
+}
+
+.blog .fechaArt p{
+  background-color: #fa573abb;
+  width: 20%;
+  height: 30%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.blog article h3{
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.blog article h4 {
+  color: var(--color-principal);
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.blog article p{
+  font-size: 0.8em;
+  color: rgb(99, 99, 99);
+  line-height: 1.4;
+}
+
+
+@media(min-width: 37em){
+  .blog article{
+    width: 40%;
+    margin: 3em 5%;
+    
+  }
+
+}
+
+@media(min-width: 62.75em){
+
+  .blog article{
+    width: 30%;
+    margin: 3em 1.6%;
+  }
+
+}
+
+
+/* ----------------------Fin estilo Blog----------------------------------------------------------------*/
+
+/* ------------------------------------Estilo Menu---------------------------------------------------------- */
+
+
+.menu {
+  background-color: #1c1c1c;
+  color: white;
+  position: relative;
+ 
+}
+
+.menu h2{
+  color: white;
+}
+
+.menu section{
+  width: 80%;
+  margin: auto;
+  
+}
+
+.menu section .row{
+  flex-direction: column;
+}
+
+.menu section aside{
+  margin-bottom: 2em;
+}
+
+.menu section aside nav{
+  margin-bottom: 2em;
+}
+
+.menu section nav ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.menu section nav ul li a.selected{
+  background-color: var(--color-principal);
+
+}
 
 
 
+.menu section nav ul li a:hover{
+  background-color: var(--color-principal);
+}
+
+.menu aside h3{
+  font-weight: 700;
+}
+
+.menu aside hr{
+  border-color: var(--color-principal);
+  width: 3em;
+  margin: 1em 0;
+}
+
+.menu section article{
+  margin: 3em 0;
+  
+}
+
+.menu article .imageContainer{
+  margin-bottom: 2em;
+  overflow: hidden;
+
+}
+
+.menu article .imageContainer img{
+  transition: transform ease-in-out 3s;
+}
+
+.menu article .imageContainer:hover img{
+  transform: scale(1.2);
+}
+
+.menu article div h3{
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.menu article div h3 span{
+  color: var(--color-principal);
+}
+
+.menu article div a{
+  font-weight: 700;
+}
+
+.menu section .topButton a{
+  position: absolute;
+  bottom:4em;
+  right: 0.5em;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 0.5em;
+ 
+  text-align: center;
+
+}
+
+
+
+@media(min-width: 37em){
+  .menu section div.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2em;
+  }
+
+  .menu section aside{
+    width: 30%;
+  }
+
+  .menu section .productosMenu{
+    width: 70%;
+  }
+
+  .menu section .imageContainer{
+    max-width: 200px;
+    margin: 0 2em;
+  }
+  .menu section article.row{
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .topButton{
+    display: none;
+  }
+
+
+}
+
+/* ---------------------------------------------Fin estilo Menu------------------------------------------------- */
